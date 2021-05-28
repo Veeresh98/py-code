@@ -1,0 +1,3 @@
+Hello everyone,
+
+I've written python statement problems based on "if else" statemnent, hope you like it.
