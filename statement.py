@@ -16,11 +16,11 @@ is smiling. We are in trouble if they are both smiling or if neither of them is 
 Return True if we are in trouble
 '''
 
-def monkey_trouble(a_smile, b_smile):
-    if a_smile and b_smile:
+def monkey_trouble(a_smile, b_smile):      #define a function
+    if a_smile and b_smile:                #state the given conditions.
         return True
-    if not a_smile and b_smile:
-        return False
+    if not a_smile and b_smile:            #check the given condition with a probalem statement
+        return False                       #return True if satisfies the condition else False.
     else:
         return False
 print(monkey_trouble(False, False))
@@ -30,9 +30,9 @@ print(monkey_trouble(False, False))
 Given two int values, return their sum. Unless the two values are the same, then return double their sum.
 '''
 
-def sum_double(a, b):
-    if a == b:
-        return (a + b)*2
+def sum_double(a, b):                       #define a function.
+    if a == b:                              #check the given condition with a probalem statement.
+        return (a + b)*2                    #return the given condition.
 
     else:
         return a + b
@@ -77,7 +77,7 @@ Given 2 int values, return True if one is negative and one is positive. Except i
 then return True only if both are negative.
 '''
 
-def pos_neg(a, b, neg):
+def pos_neg(a, b, neg):                 
     if neg:
         return (a < 0 and b < 0)
     else:
