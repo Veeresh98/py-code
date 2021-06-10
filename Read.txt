@@ -1,4 +1,5 @@
 Hello everyone,
 
-I've written python statement problems based on "if else" statemnent, hope you like it.
-Try to analyze the statement problems. Once you understand you can able to code.
+I've written python statement problems based on "if else", hope you like it.
+Try to analyze the statement question, Once you understand you can able to code.
+Questiions are simple and easy. Try to workout on your own way of code.
