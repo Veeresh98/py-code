@@ -33,5 +33,5 @@ while True:  # using loop, if the condition is true.
 
     # if you want to play the game again, no need to run th program again and again
     play_again = input("choose y/n")
-    if play_again.lower() != "y":  # the condition will break only when you choose other than "y"
+    if play_again.lower() != "y":  # the condition will break and come out of the loop when you choose other than "y" and you will exit from the loop as well as from RockPaperScissor game.
         break
